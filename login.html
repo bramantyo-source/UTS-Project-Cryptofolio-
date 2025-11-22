@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Cryptofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body class="login-body">
+
+    <div class="login-container">
+        <div style="text-align: center; margin-bottom: 30px;">
+            <img src="logo.png" alt="Logo" style="width: 80px; margin-bottom: 10px;">
+            <h1 class="brand-name" style="font-size: 2rem;">CRYPTOFOLIO</h1>
+            <p style="color: #94a3b8;">Sign In to Manage Assets</p>
+        </div>
+
+        <form id="loginForm" class="input-section" style="box-shadow: none; border: 1px solid #334155;">
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" id="username" placeholder="Masukkan Username" required>
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" id="password" placeholder="Masukkan Password" required>
+            </div>
+            
+            <button type="submit" class="btn-primary" style="margin-top: 10px;">Masuk Akses</button>
+            
+            <p id="errorMsg" style="color: #ef4444; text-align: center; margin-top: 15px; font-size: 0.9rem; display: none;">
+                Username atau Password salah!
+            </p>
+        </form>
+
+        <div style="text-align: center; margin-top: 20px; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 8px;">
+            <p style="color: #94a3b8; font-size: 0.8rem; margin-bottom: 5px;">Demo Credentials:</p>
+            <p style="color: #cbd5e1; font-family: monospace;">User: <b>admin</b> &nbsp;|&nbsp; Pass: <b>123</b></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptofolio - Portfolio Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <div class="logo-area">
+                <img src="logo.png" alt="App Logo" class="app-logo">
+                <div>
+                    <h1 class="brand-name">CRYPTOFOLIO</h1>
+                    <p style="font-size: 0.75rem; color: #94a3b8; letter-spacing: 2px; text-transform: uppercase;">
+                        Smart Asset Manager
+                    </p>
+                </div>
+            </div>            
+            <div class="stats-wrapper">
+                <div class="balance-card">
+                    <span>Estimasi Aset</span>
+                    <h2 id="totalPortfolio" style="color: #c084fc;">Rp 0</h2>
+                </div>
+                <div class="balance-card">
+                    <span>Total Profit</span>
+                    <h2 id="totalProfit" style="color: #22d3ee;">Rp 0</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="input-section">
+            <h3>Catat Transaksi Baru</h3>
+            <form id="tradeForm">
+                <div class="form-group">
+                    <label for="coinName">ID Koin (ex: bitcoin, ethereum)</label>
+                    <div style="display: flex; gap: 10px;">
+                        <input type="text" id="coinName" placeholder="bitcoin" required>
+                        <button type="button" id="checkPriceBtn" class="btn-secondary">🔍 Cek Harga</button>
+                    </div>
+                </div>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="buyPrice">Harga Beli (IDR)</label>
+                        <input type="number" id="buyPrice" placeholder="Contoh: 500000" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="amount">Jumlah Koin</label>
+                        <input type="number" id="amount" step="0.00000001" placeholder="0.5" required>
+                    </div>
+                </div>
+                <button type="submit" class="btn-primary">Simpan ke Holding</button>
+            </form>
+        </section>
+
+        <section class="list-section">
+            <h3>Daftar Aset (Holdings)</h3>
+            <div class="table-responsive">
+                <table id="tradeTable">
+                    <thead>
+                        <tr>
+                            <th>Koin</th>
+                            <th>Harga Beli</th>
+                            <th>Jumlah</th>
+                            <th>Total Investasi</th>
+                            <th>Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tradeList">
+                        </tbody>
+                </table>
+                <p id="emptyState" class="empty-state">Belum ada aset. Yuk mulai investasi!</p>
+            </div>
+        </section>
+
+        <section class="history-section" style="margin-top: 40px; border-top: 1px solid #334155; padding-top: 20px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                <h3>📄 Laporan Realisasi (History)</h3>
+                <button onclick="downloadCSV()" class="btn-secondary" style="background: #10b981; border:none; font-weight:bold; color: white;">
+                    📥 Download Excel
+                </button>
+            </div>
+            
+            <div class="table-responsive">
+                <table id="historyTable">
+                    <thead>
+                        <tr>
+                            <th>Tanggal</th>
+                            <th>Koin</th>
+                            <th>Tipe</th>
+                            <th>Jumlah</th>
+                            <th>Harga Jual</th>
+                            <th>Profit/Rugi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="historyList">
+                        </tbody>
+                </table>
+                <p id="emptyHistory" class="empty-state">Belum ada aset yang dijual.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="successModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-icon">✅</div>
+            <h4>Berhasil!</h4>
+            <p>Data telah diperbarui.</p>
+            <button id="closeModalBtn">Tutup</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
