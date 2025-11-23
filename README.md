@@ -72,13 +72,7 @@ Perancangan antarmuka aplikasi ini dimulai melalui tahap Wireframe hingga High-F
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📂 Struktur Folder
- cryptofolio/
-    ├── index.html
-    ├── login.html
-    ├── sytle.css
-    ├── logo.png
-    └── script.js
-
+/cryptofolio │ ├── index.html # Halaman Utama (Dashboard Holding) ├── login.html # Halaman Login ├── history.html # Halaman Laporan Riwayat ├── style.css # Styling Global (Tema & Layout) ├── script.js # Logika Aplikasi (API, DOM, Storage) ├── logo.png # Aset Logo 
 
 
 
