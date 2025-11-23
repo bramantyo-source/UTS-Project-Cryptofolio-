@@ -54,9 +54,8 @@ Proyek ini dibangun menggunakan teknologi Web Standar (Vanilla) tanpa Framework,
 ## 🎨 Desain UI/UX (Figma)
 
 Perancangan antarmuka aplikasi ini dimulai melalui tahap Wireframe hingga High-Fidelity Mockup menggunakan Figma.
-
 🔗 **Link Desain Figma:**
-[]
+Mockup[https://www.figma.com/design/9dduszDiTKGWg0rljfVafk/Cryptofolio-Project--Mockup-?node-id=0-1&t=7bWkwnM8u4UWK56V-1]
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -72,13 +71,13 @@ Perancangan antarmuka aplikasi ini dimulai melalui tahap Wireframe hingga High-F
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📂 Struktur Folder
-/cryptofolio │ ├── index.html 
-# Halaman Utama (Dashboard Holding) ├── login.html 
-# Halaman Login ├── history.html 
-# Halaman Laporan Riwayat ├── style.css 
-# Styling Global (Tema & Layout) ├── script.js 
-# Logika Aplikasi (API, DOM, Storage) ├── logo.png
-# Aset Logo 
+-📄 history.html
+-📄 index.html
+-📄 login.html
+-🖼️ logo.png
+-📝 README.md
+-📄 script.js
+-🎨 style.css
 
 
 
