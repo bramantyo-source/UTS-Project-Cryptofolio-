@@ -56,7 +56,7 @@ Proyek ini dibangun menggunakan teknologi Web Standar (Vanilla) tanpa Framework,
 Perancangan antarmuka aplikasi ini dimulai melalui tahap Wireframe hingga High-Fidelity Mockup menggunakan Figma.
 
 🔗 **Link Desain Figma:**
-[(MASUKKAN LINK FIGMA KAMU DI SINI)]
+[]
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
