@@ -69,6 +69,10 @@ Perancangan antarmuka aplikasi ini dimulai melalui tahap Wireframe hingga High-F
 ## 🔗 **Link Desain Figma:**
 Mockup[https://www.figma.com/design/9dduszDiTKGWg0rljfVafk/Cryptofolio-Project--Mockup-?node-id=0-1&t=7bWkwnM8u4UWK56V-1]
 
+Flow[https://www.figma.com/board/JB4CQq46BgRM1chM3IKJOk/Cryptofolio-Project-Workflow?node-id=0-1&t=YBzec4XVq1JHOYvq-1]
+
+wireframe[]
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🚀 Cara Menjalankan Proyek
