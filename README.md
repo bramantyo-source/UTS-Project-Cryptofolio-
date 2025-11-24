@@ -66,7 +66,7 @@ Proyek ini dibangun menggunakan teknologi Web Standar (Vanilla) tanpa Framework,
 
 Perancangan antarmuka aplikasi ini dimulai melalui tahap Wireframe hingga High-Fidelity Mockup menggunakan Figma.
 
-##🔗 **Link Desain Figma:**
+## 🔗 **Link Desain Figma:**
 Mockup[https://www.figma.com/design/9dduszDiTKGWg0rljfVafk/Cryptofolio-Project--Mockup-?node-id=0-1&t=7bWkwnM8u4UWK56V-1]
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -88,8 +88,8 @@ Mockup[https://www.figma.com/design/9dduszDiTKGWg0rljfVafk/Cryptofolio-Project--
 - 📄 login.html
 - 🖼️ logo.png
 - 📝 README.md
--📄 script.js
--🎨 style.css
+- 📄 script.js
+- 🎨 style.css
 
 
 
