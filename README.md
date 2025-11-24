@@ -71,7 +71,7 @@ Mockup[https://www.figma.com/design/9dduszDiTKGWg0rljfVafk/Cryptofolio-Project--
 
 Flow[https://www.figma.com/board/JB4CQq46BgRM1chM3IKJOk/Cryptofolio-Project-Workflow?node-id=0-1&t=YBzec4XVq1JHOYvq-1]
 
-wireframe[]
+wireframe(Version Beta)[https://www.figma.com/make/0YpDLGRrsAVTERxuDJFs3M/Create-Wireframe-from-Screenshot?node-id=0-4&t=JJ6exLyXUANLc7vV-1]
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
