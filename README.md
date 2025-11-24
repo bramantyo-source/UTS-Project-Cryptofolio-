@@ -3,13 +3,13 @@ A Crypto Portfolio Management web application built with Vanilla JavaScript, HTM
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📸 Tangkapan Layar (Screenshots)
-#Halaman Login
+# Halaman Login
 <p align="center">
    <img src="assets/login.png" alt="Halaman Login" width="100%">
 </p>
 
 
-#Halaman Dashboard
+# Halaman Dashboard
 <p align="center">
   <img src="assets/dashboard.png" alt="Halaman Utama" width="100%">
   &nbsp;
@@ -83,11 +83,11 @@ Mockup[https://www.figma.com/design/9dduszDiTKGWg0rljfVafk/Cryptofolio-Project--
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📂 Struktur Folder
--📄 history.html
--📄 index.html
--📄 login.html
--🖼️ logo.png
--📝 README.md
+- 📄 history.html
+- 📄 index.html
+- 📄 login.html
+- 🖼️ logo.png
+- 📝 README.md
 -📄 script.js
 -🎨 style.css
 
