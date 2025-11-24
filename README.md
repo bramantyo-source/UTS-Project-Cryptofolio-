@@ -1,9 +1,19 @@
 # UTS-Project-Cryptofolio-
 A Crypto Portfolio Management web application built with Vanilla JavaScript, HTML, and CSS. Created for the Front-End Web Development Midterm Exam.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## 📸 Tangkapan Layar (Screenshots)
 Halaman Login
--------------
+<p align="center">
+   <img src="assets/login.png" alt="Halaman Login" width="45%">
+</p>
+
+Halaman Dashboard
+<p align="center">
+  <img src="assets/dashboard.png" alt="Halaman Utama" width="45%">
+  &nbsp;
+</p>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ✨ Fitur
 ### 1. 🔐 Sistem Autentikasi (Simulasi)
